@@ -1,3 +1,4 @@
+name: run dockerfile
 runs:
   using: 'docker'
   image: 'Dockerfile'

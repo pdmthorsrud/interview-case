@@ -9,8 +9,6 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-    -
-      name: Test
-      runs:
-        using: 'docker'
-        image: 'Dockerfile'
+    - name: Hello world action step
+            uses: ./ # Uses an action in the root directory
+            id: hello
