@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-CMD echo "Hello World!" >> test.txt
+RUN echo "Hello World!" >> test.txt
